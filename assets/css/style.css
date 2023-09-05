@@ -1,0 +1,103 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; 
+  height: 100vh;
+  background-image: url("https://dm0qx8t0i9gc9.cloudfront.net/watermarks/image/rDtN98Qoishumwih/graphicstock-keyboard-with-office-supplies-on-white-desk_S8ign37mZ_SB_PM.jpg");
+}
+
+
+/*added to textarea*/
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+/*already pre-added to the header*/
+.jumbotron {
+  text-align: center;
+  background-color: rgba(211,211,211,0.5);
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+
+}
+h1, p {
+  text-shadow:3px 3px white;
+}
+
+h1 {
+  font-family: 'Original Surfer', cursive;
+}
+
+footer {
+  text-align: center;
+  margin-top: 100px;
+}
+
+/*here is for textarea*/
+.description{
+  white-space: pre-wrap;
+}
+
+/*added to time block*/
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+/*added to row*/
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+/*added to hour*/
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+/*present, past, future should be the class adding later using a function in JS*/
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #d6be8d;
+  color: white;
+}
+
+.future {
+  background-color: #9fc68a;
+  color: white;
+}
+
+/*added to save button*/
+.saveBtn {
+  border-left: 1px solid black;
+  background-color: #87b1ba;
+  color: white;
+}
+
+.deleteBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #87b1ba;
+  color: white;
+}
+
+.saveBtn i:hover, .deleteBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
