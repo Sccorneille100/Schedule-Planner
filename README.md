@@ -1,7 +1,7 @@
 # Work-Day-Scheduler
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/siennameow/Work-Day-Scheduler/blob/main/LICENSE)
 
-## Description 📝 
+## Description
 
 Successful people constantly evaluate what they're spending their time on. Don’t let your tasks overwhelm you. Daily planning can help you save precious time and focus on your most critical goals. With Work Day Scheduler, the ultimate daily planner, you can quickly run through your daily to-do’s and prioritize them so you’re focused only on the things that matter.
 
